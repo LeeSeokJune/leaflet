@@ -6,6 +6,7 @@ import 'package:leaflet/controllers/pet_controller.dart';
 import 'package:leaflet/controllers/petfood_controller.dart';
 import 'package:leaflet/screens/components/current_petfood.dart';
 import 'package:leaflet/screens/components/healthcare_form.dart';
+import 'package:leaflet/screens/components/pet_dialog.dart';
 
 class LeftForm extends StatelessWidget {
   LeftForm({super.key});
@@ -19,9 +20,14 @@ class LeftForm extends StatelessWidget {
           () => Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                '${petController.pet.value.name} 식단 가이드',
-                style: title_style,
+              InkWell(
+                child: Text(
+                  '${petController.pet.value.name} 식단 가이드',
+                  style: title_style,
+                ),
+                onTap: () {
+                  Get.dialog(PetDialog());
+                },
               ),
               SizedBox(height: 4 * magnification),
               _pet_info_txt(),
@@ -50,7 +56,10 @@ class LeftForm extends StatelessWidget {
             style: blue_small_style,
           ),
         ),
-        Text('${petController.set_health_txt()}'),
+        Text(
+          '${petController.set_health_txt()}',
+          style: black_bold_basic_style,
+        ),
       ],
     );
   }
@@ -65,7 +74,10 @@ class LeftForm extends StatelessWidget {
             style: blue_small_style,
           ),
         ),
-        Text('${petController.set_alg_txt()}'),
+        Text(
+          '${petController.set_alg_txt()}',
+          style: black_bold_basic_style,
+        ),
       ],
     );
   }

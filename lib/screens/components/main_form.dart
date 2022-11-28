@@ -14,9 +14,7 @@ class MainForm extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          _MemberIdField(),
-          _NameField(),
-          SizedBox(height: 10),
+          // SizedBox(height: 10),
           Container(
             width: main_width * magnification,
             height: main_height * magnification,
@@ -26,57 +24,6 @@ class MainForm extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
-  }
-
-  Row _NameField() {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Container(width: 100, height: 30, child: Text('반려동물 이름')),
-        Container(
-          width: 200,
-          height: 30,
-          child: TextField(
-            decoration: _CustomInputDecoration(),
-            onChanged: (value) => {petController.set_name(value)},
-          ),
-        ),
-        SizedBox(width: 10),
-        ElevatedButton(
-          child: Text('확인'),
-          onPressed: () {
-            post_set_pet_data(data: {'member_id': 'jjhy95', 'name': '꾸꾸까까'});
-          },
-        )
-      ],
-    );
-  }
-
-  Row _MemberIdField() {
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Container(width: 100, height: 30, child: Text('아이디')),
-        Container(
-          width: 200,
-          height: 30,
-          child: TextField(
-            decoration: _CustomInputDecoration(),
-            onChanged: (value) => {petController.set_member_id(value)},
-          ),
-        ),
-      ],
-    );
-  }
-
-  InputDecoration _CustomInputDecoration() {
-    return InputDecoration(
-      border: OutlineInputBorder(
-        borderRadius: BorderRadius.all(
-          Radius.circular(5),
-        ),
       ),
     );
   }

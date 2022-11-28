@@ -21,12 +21,20 @@ final title_style = TextStyle(
 final blue_small_style = TextStyle(
     fontSize: 10 + magnification,
     color: main_color,
-    fontWeight: FontWeight.w600);
+    fontWeight: FontWeight.bold);
 final blue_medium_style = TextStyle(
   fontSize: 12 + magnification,
   fontWeight: FontWeight.w500,
   color: main_color,
 );
+final black_bold_style = TextStyle(
+    fontSize: 10 + magnification,
+    color: Colors.black,
+    fontWeight: FontWeight.bold);
+final black_bold_basic_style =
+    TextStyle(color: Colors.black, fontWeight: FontWeight.bold);
+final black_basic_style =
+    TextStyle(color: Colors.black, fontWeight: FontWeight.w500);
 final number_bold_medium = TextStyle(
     fontSize: 10 + magnification, fontFamily: 'Jalnan', color: main_color);
 final number_bold_medium_yellow = TextStyle(

@@ -21,34 +21,12 @@ class CurrentPetfood extends StatelessWidget {
   Widget _current_petfood() {
     return Column(
       children: [
-        SizedBox(height: 5 * magnification),
+        SizedBox(height: 3 * magnification),
         Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(width: 10 * magnification),
-            Column(
-              children: [
-                Container(
-                    width: 40 * magnification,
-                    height: 40 * magnification,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(basic_radius),
-                      color: background_blue,
-                    ),
-                    child: Image.asset(
-                      'images/6fish.png',
-                    )
-                    // 'assets/images/${petfoodController.petfood.value.brand}/${petfoodController.petfood.value.name}.png'),
-                    ),
-                SizedBox(height: 4 * magnification),
-                Container(
-                  decoration: test_line,
-                  width: 28 * magnification,
-                  height: 15 * magnification,
-                  child: Center(child: Text('해시태그')),
-                ),
-              ],
-            ),
+            _petfood_info(),
             SizedBox(width: 9 * magnification),
             _petfood_features(),
           ],
@@ -63,7 +41,8 @@ class CurrentPetfood extends StatelessWidget {
           height: 1 * magnification,
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 65 * magnification),
+          padding: const EdgeInsets.only(
+              left: 65 * magnification, bottom: 3 * magnification),
           child: RichText(
             text: TextSpan(
               text: '권장 사료 교체 주기',
@@ -85,6 +64,32 @@ class CurrentPetfood extends StatelessWidget {
     );
   }
 
+  Column _petfood_info() {
+    return Column(
+      children: [
+        Container(
+            width: 40 * magnification,
+            height: 40 * magnification,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(basic_radius),
+              color: background_blue,
+            ),
+            child: Image.asset(
+              'images/6fish.png',
+            )
+            // 'assets/images/${petfoodController.petfood.value.brand}/${petfoodController.petfood.value.name}.png'),
+            ),
+        SizedBox(height: 4 * magnification),
+        Container(
+          decoration: test_line,
+          width: 28 * magnification,
+          height: 15 * magnification,
+          child: Center(child: Text('해시태그')),
+        ),
+      ],
+    );
+  }
+
   Column _petfood_features() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -94,7 +99,10 @@ class CurrentPetfood extends StatelessWidget {
           height: 8 * magnification,
           color: light_grey,
           child: Center(
-            child: Text('${petfoodController.petfood.value.name}'),
+            child: Text(
+              '${petfoodController.petfood.value.name}',
+              style: black_bold_style,
+            ),
           ),
         ),
         SizedBox(height: 4 * magnification),
@@ -105,11 +113,14 @@ class CurrentPetfood extends StatelessWidget {
               children: [
                 Image.asset(
                   'assets/icons/check_box.png',
-                  width: 6 * magnification,
-                  height: 6 * magnification,
+                  width: 4.5 * magnification,
+                  height: 4.5 * magnification,
                 ),
                 SizedBox(width: 4 * magnification),
-                Text('${petfoodController.petfood.value.feature}')
+                Text(
+                  '${petfoodController.petfood.value.feature}',
+                  style: black_basic_style,
+                ),
               ],
             ),
           ),
