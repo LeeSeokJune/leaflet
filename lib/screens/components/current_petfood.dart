@@ -5,6 +5,7 @@ import 'package:leaflet/controllers/petfood_controller.dart';
 import 'package:leaflet/screens/components/custom_container_form.dart';
 
 import '../../components/style.dart';
+import '../../data/petfood.dart';
 
 class CurrentPetfood extends StatelessWidget {
   CurrentPetfood({super.key});
@@ -100,7 +101,7 @@ class CurrentPetfood extends StatelessWidget {
           color: light_grey,
           child: Center(
             child: Text(
-              '${petfoodController.petfood.value.name}',
+              '${petfood_list[petfoodController.petfood_index[0]]["name"]}',
               style: black_bold_style,
             ),
           ),
@@ -118,7 +119,7 @@ class CurrentPetfood extends StatelessWidget {
                 ),
                 SizedBox(width: 4 * magnification),
                 Text(
-                  '${petfoodController.petfood.value.feature}',
+                  '${petfood_list[petfoodController.petfood_index[0]]["feature"]}',
                   style: black_basic_style,
                 ),
               ],

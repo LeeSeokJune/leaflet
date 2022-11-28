@@ -1,22 +1,18 @@
 import 'package:get/get.dart';
-import 'package:leaflet/data/petfood.dart';
-import 'package:leaflet/models/petfood_model.dart';
 
 class PetfoodController extends GetxController {
-  var petfood = Petfood().obs;
-  var cycle_index = 0.obs;
+  var petfood_index = [0, 1, 2, 3].obs;
+  var cycle_index = [0, 1].obs;
 
-  @override
-  void onInit() {
-    super.onInit();
-    set_petfood(Petfood.fromJson(petfood_list[0]));
+  void set_petfood_index({order_index, petfood_index}) {
+    petfood_index[order_index] = petfood_index;
   }
 
-  void set_petfood(data) {
-    petfood.value = data;
-  }
-
-  void set_cycle_index(data) {
-    cycle_index(data);
+  void set_cycle_index(index) {
+    if (cycle_index[index] < 5) {
+      cycle_index[index]++;
+    } else {
+      cycle_index[index] = 0;
+    }
   }
 }
