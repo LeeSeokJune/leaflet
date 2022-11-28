@@ -47,10 +47,7 @@ class MainForm extends StatelessWidget {
         ElevatedButton(
           child: Text('확인'),
           onPressed: () {
-            postData(
-              data: {'member_id': 'jjhy95', 'name': '꾸꾸까까'},
-              url: 'single-pet/',
-            );
+            post_set_pet_data(data: {'member_id': 'jjhy95', 'name': '꾸꾸까까'});
           },
         )
       ],

@@ -1,18 +1,19 @@
-import 'dart:convert';
-
 import 'package:get/get.dart';
 import 'package:leaflet/models/pet_model.dart';
-
 import '../components/modules.dart';
 
 class PetController extends GetxController {
   var pet = Pet().obs;
-  var instance;
+  var pet_cycle = {}.obs;
   RxString member_id = ''.obs;
   RxString name = ''.obs;
 
   void set_pet(value) {
     pet.value = value;
+  }
+
+  void set_pet_cycle(value) {
+    pet_cycle(value);
   }
 
   void set_member_id(data) {
