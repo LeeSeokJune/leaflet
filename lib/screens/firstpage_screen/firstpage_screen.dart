@@ -3,8 +3,8 @@ import 'package:leaflet/screens/components/left_form.dart';
 import 'package:leaflet/screens/components/main_form.dart';
 import 'package:leaflet/screens/firstpage_screen/components/first_right_form.dart';
 
-class FirstpageScreen extends StatelessWidget {
-  FirstpageScreen({super.key});
+class FirstScreen extends StatelessWidget {
+  FirstScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

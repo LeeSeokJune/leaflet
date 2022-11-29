@@ -16,13 +16,13 @@ class HealthcareForm extends StatelessWidget {
       txt: '건강고려사항 추천 간식/영양제',
       child: Column(
         children: [
-          SizedBox(height: 4 * magnification),
+          SizedBox(height: 5 * magnification),
           Text(
             "반려동물 관절 관리는 '적정 체중' '관절 염증 완화' 두 가지 측면에서 시행해줄 수 있어요.\n적절한 체중 유지와 염증 완화에 도움되는 제품들을 만나보세요",
             style: black_basic_style,
             textAlign: TextAlign.center,
           ),
-          SizedBox(height: 3 * magnification),
+          SizedBox(height: 5 * magnification),
           Obx(
             () => Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -32,7 +32,7 @@ class HealthcareForm extends StatelessWidget {
               ],
             ),
           ),
-          SizedBox(height: 3 * magnification)
+          SizedBox(height: 6 * magnification)
         ],
       ),
     );

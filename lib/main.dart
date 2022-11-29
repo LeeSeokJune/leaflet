@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         focusColor: Colors.black,
         backgroundColor: Colors.white,
       ),
-      home: FirstpageScreen(),
+      home: FirstScreen(),
     );
   }
 }

@@ -52,14 +52,14 @@ class CurrentPetfood extends StatelessWidget {
                 text: '권장 사료 교체 주기',
                 style: TextStyle(
                     fontSize: 9 + magnification,
-                    fontWeight: FontWeight.w500,
+                    fontWeight: FontWeight.w600,
                     color: point_yellow),
                 children: [
                   TextSpan(
                     text: '  (개월)',
                     style: TextStyle(
                         fontSize: 7 + magnification,
-                        fontWeight: FontWeight.w400),
+                        fontWeight: FontWeight.w600),
                   ),
                 ],
               ),
@@ -75,8 +75,8 @@ class CurrentPetfood extends StatelessWidget {
       children: [
         InkWell(
           child: Container(
-              width: 40 * magnification,
-              height: 40 * magnification,
+              width: 34 * magnification,
+              height: 34 * magnification,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(basic_radius),
                 color: background_blue,
@@ -138,8 +138,9 @@ class CurrentPetfood extends StatelessWidget {
         SizedBox(height: 6 * magnification),
         for (var index = 0; index < 3; index++)
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 1.5 * magnification),
+            padding: EdgeInsets.symmetric(vertical: 1 * magnification),
             child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
                   'assets/icons/check_box.png',
@@ -148,7 +149,8 @@ class CurrentPetfood extends StatelessWidget {
                 ),
                 SizedBox(width: 4 * magnification),
                 Text(
-                  '${petfood_list[petfoodController.petfood_index_list[0]]["feature"]}',
+                  list_to_str(
+                      '${petfood_list[petfoodController.petfood_index_list[0]]["feature"]}'),
                   style: black_basic_style,
                 ),
               ],

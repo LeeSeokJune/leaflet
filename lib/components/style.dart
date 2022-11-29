@@ -33,8 +33,10 @@ final black_bold_style = TextStyle(
     fontWeight: FontWeight.bold);
 final black_bold_basic_style =
     TextStyle(color: Colors.black, fontWeight: FontWeight.bold);
-final black_basic_style =
-    TextStyle(color: Colors.black, fontWeight: FontWeight.w500);
+final black_basic_style = TextStyle(
+    color: Colors.black,
+    fontWeight: FontWeight.w500,
+    fontSize: 10 + magnification);
 final number_bold_medium = TextStyle(
     fontSize: 10 + magnification, fontFamily: 'Jalnan', color: main_color);
 final number_bold_medium_yellow = TextStyle(
