@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:leaflet/components/rest_api.dart';
 import 'package:leaflet/components/style.dart';
 import 'package:leaflet/controllers/pet_controller.dart';
 

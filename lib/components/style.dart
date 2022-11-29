@@ -39,4 +39,6 @@ final number_bold_medium = TextStyle(
     fontSize: 10 + magnification, fontFamily: 'Jalnan', color: main_color);
 final number_bold_medium_yellow = TextStyle(
     fontSize: 10 + magnification, fontFamily: 'Jalnan', color: point_yellow);
+final number_bold_large_style = TextStyle(
+    fontSize: 17 + magnification, fontFamily: 'Jalnan', color: main_color);
 final grey_regular_style = TextStyle(fontSize: 11 + magnification, color: grey);

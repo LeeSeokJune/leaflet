@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:leaflet/components/modules.dart';
 import 'package:leaflet/controllers/pet_controller.dart';
 import 'package:leaflet/controllers/petfood_controller.dart';
 import 'package:leaflet/screens/components/custom_container_form.dart';
+import 'package:leaflet/screens/components/select_petfood_dialog.dart';
 
 import '../../components/style.dart';
 import '../../data/petfood.dart';
@@ -20,66 +22,74 @@ class CurrentPetfood extends StatelessWidget {
   }
 
   Widget _current_petfood() {
-    return Column(
-      children: [
-        SizedBox(height: 3 * magnification),
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(width: 10 * magnification),
-            _petfood_info(),
-            SizedBox(width: 9 * magnification),
-            _petfood_features(),
-          ],
-        ),
-        SizedBox(height: 3 * magnification),
-        _show_pet_foot(),
-        SizedBox(height: 2 * magnification),
-        _cycle_graph(),
-        SizedBox(height: 2 * magnification),
-        _cycle_number(),
-        SizedBox(
-          height: 1 * magnification,
-        ),
-        Padding(
-          padding: const EdgeInsets.only(
-              left: 65 * magnification, bottom: 3 * magnification),
-          child: RichText(
-            text: TextSpan(
-              text: '권장 사료 교체 주기',
-              style: TextStyle(
-                  fontSize: 9 + magnification,
-                  fontWeight: FontWeight.w500,
-                  color: point_yellow),
-              children: [
-                TextSpan(
-                  text: '  (개월)',
-                  style: TextStyle(
-                      fontSize: 7 + magnification, fontWeight: FontWeight.w400),
-                ),
-              ],
+    return Obx(
+      () => Column(
+        children: [
+          SizedBox(height: 3 * magnification),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(width: 10 * magnification),
+              _petfood_info(),
+              SizedBox(width: 9 * magnification),
+              _petfood_features(),
+            ],
+          ),
+          SizedBox(height: 3 * magnification),
+          _show_pet_foot(),
+          SizedBox(height: 2 * magnification),
+          _cycle_graph(),
+          SizedBox(height: 2 * magnification),
+          _cycle_number(),
+          SizedBox(
+            height: 1 * magnification,
+          ),
+          Padding(
+            padding: const EdgeInsets.only(
+                left: 65 * magnification, bottom: 3 * magnification),
+            child: RichText(
+              text: TextSpan(
+                text: '권장 사료 교체 주기',
+                style: TextStyle(
+                    fontSize: 9 + magnification,
+                    fontWeight: FontWeight.w500,
+                    color: point_yellow),
+                children: [
+                  TextSpan(
+                    text: '  (개월)',
+                    style: TextStyle(
+                        fontSize: 7 + magnification,
+                        fontWeight: FontWeight.w400),
+                  ),
+                ],
+              ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 
   Column _petfood_info() {
     return Column(
       children: [
-        Container(
-            width: 40 * magnification,
-            height: 40 * magnification,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(basic_radius),
-              color: background_blue,
-            ),
-            child: Image.asset(
-              'images/6fish.png',
-            )
-            // 'assets/images/${petfoodController.petfood.value.brand}/${petfoodController.petfood.value.name}.png'),
-            ),
+        InkWell(
+          child: Container(
+              width: 40 * magnification,
+              height: 40 * magnification,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(basic_radius),
+                color: background_blue,
+              ),
+              child: Image.asset(
+                'images/6fish.png',
+              )
+              // 'assets/images/${petfoodController.petfood.value.brand}/${petfoodController.petfood.value.name}.png'),
+              ),
+          onTap: () {
+            Get.dialog(SelectPetfoodDialog(order_index: 0));
+          },
+        ),
         SizedBox(height: 4 * magnification),
         Container(
           decoration: test_line,
@@ -101,12 +111,31 @@ class CurrentPetfood extends StatelessWidget {
           color: light_grey,
           child: Center(
             child: Text(
-              '${petfood_list[petfoodController.petfood_index[0]]["name"]}',
+              '${petfood_list[petfoodController.petfood_index_list[0]]["name"]}',
               style: black_bold_style,
             ),
           ),
         ),
         SizedBox(height: 4 * magnification),
+        Container(
+          decoration: BoxDecoration(
+              border: Border(left: BorderSide(color: border_color, width: 2))),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _second_feature(
+                  main_txt: '권장 연령',
+                  sub_txt:
+                      '${petfood_list[petfoodController.petfood_index_list[0]]["life_stage"]}'),
+              SizedBox(height: 2 * magnification),
+              _second_feature(
+                  main_txt: '주 단백질',
+                  sub_txt:
+                      '${petfood_list[petfoodController.petfood_index_list[0]]["main_ingredient"]}'),
+            ],
+          ),
+        ),
+        SizedBox(height: 6 * magnification),
         for (var index = 0; index < 3; index++)
           Padding(
             padding: EdgeInsets.symmetric(vertical: 1.5 * magnification),
@@ -119,13 +148,38 @@ class CurrentPetfood extends StatelessWidget {
                 ),
                 SizedBox(width: 4 * magnification),
                 Text(
-                  '${petfood_list[petfoodController.petfood_index[0]]["feature"]}',
+                  '${petfood_list[petfoodController.petfood_index_list[0]]["feature"]}',
                   style: black_basic_style,
                 ),
               ],
             ),
           ),
-        _cycle_container(),
+        // _cycle_container(),
+      ],
+    );
+  }
+
+  Row _second_feature({main_txt, sub_txt}) {
+    return Row(
+      children: [
+        Container(
+          width: 20 * magnification,
+          child: Center(
+              child: Text(
+            '${main_txt}',
+            style: TextStyle(
+                fontSize: 10 + magnification,
+                color: grey,
+                fontWeight: FontWeight.w600),
+          )),
+        ),
+        Text(
+          list_to_str(sub_txt),
+          style: TextStyle(
+            fontSize: 10 + magnification,
+            color: grey,
+          ),
+        ),
       ],
     );
   }
@@ -140,20 +194,18 @@ class CurrentPetfood extends StatelessWidget {
   }
 
   Widget _pet_foot_img({index}) {
-    return Obx(
-      () => Padding(
-        padding: index != 5
-            ? EdgeInsets.only(right: 18 * magnification)
-            : EdgeInsets.only(right: 5 * magnification),
-        child: index == petfoodController.cycle_index.value
-            ? Image.asset(
-                'assets/icons/pet_foot.png',
-                width: 4 * magnification,
-                height: 4 * magnification,
-                color: index < 3 ? main_color : point_yellow,
-              )
-            : SizedBox(width: 4 * magnification),
-      ),
+    return Padding(
+      padding: index != 5
+          ? EdgeInsets.only(right: 18 * magnification)
+          : EdgeInsets.only(right: 5 * magnification),
+      child: index == petfoodController.cycle_index.value
+          ? Image.asset(
+              'assets/icons/pet_foot.png',
+              width: 4 * magnification,
+              height: 4 * magnification,
+              color: index < 3 ? main_color : point_yellow,
+            )
+          : SizedBox(width: 4 * magnification),
     );
   }
 

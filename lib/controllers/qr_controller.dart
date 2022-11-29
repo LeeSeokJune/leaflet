@@ -10,5 +10,8 @@ class QrController extends GetxController {
     } else {
       qr_index[index] = 0;
     }
+    if (qr_index[0] == qr_index[1]) {
+      set_qr_index(index);
+    }
   }
 }
