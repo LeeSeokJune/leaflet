@@ -67,7 +67,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%ED%8D%BC%ED%94%BC-2kg/13/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #높은 육류 함유량',
+    'hash': ['그레인프리', '높은 육류 함유량'],
     'detail_explain': ['성장하는 강아지를 위한 영양 설계\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 동결건조']
   },
   {
@@ -135,7 +135,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-6fish-2kg/14/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #높은 어류 함유량',
+    'hash': ['그레인프리', '높은 어류 함유량'],
     'detail_explain': ['피부/피모 건강 증진\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 동결건조']
   },
   {
@@ -206,7 +206,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%82%A0-%EB%8F%85-2kg/15/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #높은 육류 함유량',
+    'hash': ['그레인프리', '높은 육류 함유량'],
     'detail_explain': ['풍부한 육류 함량\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 동결건조']
   },
   {
@@ -274,7 +274,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-18kg/16/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #작은알갱이',
+    'hash': ['관절건강', '작은알갱이'],
     'detail_explain': ['작고 부드러운 알갱이\r', '관절 건강에 좋은 초록입홍합\r', '소화기에 좋은 유산균 함유']
   },
   {
@@ -347,7 +347,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%EC%8B%9C%EB%8B%88%EC%96%B4-%EB%8F%85-2kg/17/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #높은 육류 함유량',
+    'hash': ['그레인프리', '높은 육류 함유량'],
     'detail_explain': ['노령견을 위한 영양 설계\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 동결건조']
   },
   {
@@ -420,7 +420,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%ED%94%BC%ED%8A%B8%ED%8A%B8%EB%A6%BC-2kg/18/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#다이어트사료 #그레인프리',
+    'hash': ['그레인프리', '다이어트사료'],
     'detail_explain': ['다이어트 사료\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 동결건조']
   },
   {
@@ -474,7 +474,7 @@ final petfood_list = [
         '/product/%EC%95%84%EC%B9%B4%EB%82%98-%EC%8B%B1%EA%B8%80%EC%A6%88-%ED%94%84%EB%A6%AC%EB%9F%B0-%EB%8D%95-2kg/19/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기',
+    'hash': ['단일단백질', '저알레르기'],
     'detail_explain': ['식이 알레르기 최소화와 눈물 개선\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 냉동건조']
   },
   {
@@ -529,7 +529,7 @@ final petfood_list = [
         '/product/%EC%95%84%EC%B9%B4%EB%82%98-%EC%8B%B1%EA%B8%80%EC%A6%88-%EC%9A%94%ED%81%AC%EC%85%94-%ED%8F%AC%ED%81%AC-2kg/22/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기',
+    'hash': ['단일단백질', '저알레르기'],
     'detail_explain': ['식이 알레르기 최소화와 눈물 개선\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 냉동건조']
   },
   {
@@ -595,7 +595,7 @@ final petfood_list = [
         '/product/%EC%95%84%EC%B9%B4%EB%82%98-%ED%8D%BC%ED%94%BC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-2kg/23/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #작은알갱이',
+    'hash': ['그레인프리', '작은알갱이'],
     'detail_explain': ['성장하는 강아지를 위한 영양 설계\r', '작고 부드러운 알갱이\r', '맛을 더하는 동결건조']
   },
   {
@@ -634,7 +634,7 @@ final petfood_list = [
         '/product/%EC%8B%9C%EA%B7%B8%EB%84%90%EC%BC%80%EC%96%B4-%EC%82%AC%EB%9E%91%ED%95%98%EA%B0%9C-15kg/21/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#곤충사료 #저알레르기',
+    'hash': ['곤충사료', '저알레르기'],
     'detail_explain': [
       '식이 알레르기 최소화와 눈물 개선\r',
       '필수 아미노산이 풍부한 식용곤충\r',
@@ -677,7 +677,7 @@ final petfood_list = [
         '/product/%EC%9B%B0%EB%8B%88%EC%8A%A4-%EC%8B%AC%ED%94%8C-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%82%B4%EB%AA%AC%ED%8F%AC%ED%85%8C%EC%9D%B4%ED%86%A0-2kg/24/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기',
+    'hash': ['단일단백질', '저알레르기'],
     'detail_explain': [
       '식이 알레르기 최소화와 눈물 개선\r',
       '소화에 좋은 유산균 함유\r',
@@ -739,7 +739,7 @@ final petfood_list = [
         '/product/%EC%9B%B0%EB%8B%88%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8%ED%97%AC%EC%8A%A4-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%ED%97%AC%EC%8B%9C%EC%9B%A8%EC%9D%B4%ED%8A%B8-18kg/25/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#다이어트사료 #소화기건강',
+    'hash': ['소화기건강', '다이어트사료'],
     'detail_explain': ['다이어트 사료\r', '소화에 좋은 유산균 함유\r', '삼각형 모양의 작은 알갱이']
   },
   {
@@ -798,7 +798,7 @@ final petfood_list = [
         '/product/%EC%9B%B0%EB%8B%88%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8%ED%97%AC%EC%8A%A4-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-18kg/26/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #소화기건강',
+    'hash': ['그레인프리', '소화기건강'],
     'detail_explain': [
       'Grain Free(그레인프리)\r',
       '소화에 좋은 유산균 함유\r',
@@ -860,7 +860,7 @@ final petfood_list = [
         '/product/%EC%9B%B0%EB%8B%88%EC%8A%A4-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8%ED%97%AC%EC%8A%A4-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%8B%9C%EB%8B%88%EC%96%B4-181kg/338/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #소화기건강 #노령견사료',
+    'hash': ['그레인프리', '소화기건강', '노령견사료'],
     'detail_explain': ['노령견을 위한 영양 설계\r', '소화에 좋은 유산균 함유\r', '삼각형 모양의 작은 알갱이']
   },
   {
@@ -913,7 +913,7 @@ final petfood_list = [
         '/product/%ED%86%A0%EC%9A%B0-%EA%B5%AC%EC%9A%B4%EC%98%A4%EB%A6%AC%EA%B3%A0%EA%B5%AC%EB%A7%88-%EB%8F%85-227kg/27/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '혈관 질환 예방과 피부 건강\r',
       '지속형 탄수화물 고구마\r',
@@ -968,7 +968,7 @@ final petfood_list = [
         '/product/%ED%86%A0%EC%9A%B0-%ED%9B%88%EC%A0%9C%EC%97%B0%EC%96%B4%EA%B3%A0%EA%B5%AC%EB%A7%88-%EB%8F%85-2kg/28/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['피부/피모 건강 증진\r', '지속형 탄수화물 고구마\r', 'Grain Free(그레인프리)']
   },
   {
@@ -1024,7 +1024,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-rbk-%ED%97%AC%EC%8B%9C%EC%9B%A8%EC%9D%B4%ED%8A%B8-%EB%8F%85-%ED%82%A4%EB%B8%94-18kg/29/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#다이어트사료 #그레인프리',
+    'hash': ['그레인프리', '다이어트사료'],
     'detail_explain': ['다이어트 사료\r', 'Grain Free(그레인프리)\r', '풍부한 유산균과 면역력 증진']
   },
   {
@@ -1081,7 +1081,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-rbk-%EC%8B%9C%EB%8B%88%EC%96%B4-18kg/30/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '노령견을 위한 영양 설계\r',
       '맛과 영양을 더하는 생식 코팅\r',
@@ -1141,7 +1141,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-rbk-%EC%98%A4%EB%A6%AC%EA%B3%A0%EA%B8%B0-%EB%8F%85-18kg/31/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '혈관 질환 예방과 피부 건강\r',
       '맛과 영양을 더하는 생식 코팅\r',
@@ -1200,7 +1200,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-rbk-%EC%B9%98%ED%82%A8-%EB%8F%85-18kg/32/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #면역력향상',
+    'hash': ['그레인프리', '면역력향상'],
     'detail_explain': [
       'Grain Free(그레인프리)\r',
       '맛과 영양을 더하는 생식 코팅\r',
@@ -1243,7 +1243,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-%EC%96%BC%ED%8B%B0%EB%B0%8B-%ED%94%84%EB%A1%9C%ED%8B%B4-%EB%8F%85-18kg/33/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#면역력향상 #높은 육류 함유량',
+    'hash': ['면역력향상', '높은 육류 함유량'],
     'detail_explain': [
       '자유 방목 닭을 사용한 고단백 사료\r',
       '맛과 영양을 더하는 생식 코팅\r',
@@ -1304,7 +1304,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-be-%EB%82%B4%EC%B6%94%EB%9F%B4-%EB%8F%85-2kg/34/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '소화기 건강에 좋은 사료\r',
       'Grain Free(그레인프리)\r',
@@ -1366,7 +1366,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-be-%EB%82%B4%EC%B6%94%EB%9F%B4-%EC%97%B0%EC%96%B4-2kg/35/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '소화기 건강에 좋은 사료\r',
       'Grain Free(그레인프리)\r',
@@ -1428,7 +1428,7 @@ final petfood_list = [
         '/product/%EC%9D%B8%EC%8A%A4%ED%8C%85%ED%8A%B8-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%82%A0-%ED%86%A0%EB%81%BC%EA%B3%A0%EA%B8%B0-18kg/36/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['희귀단백질 토끼\r', 'Grain Free(그레인프리)\r', '풍부한 유산균과 면역력 증진']
   },
   {
@@ -1493,7 +1493,7 @@ final petfood_list = [
         '/product/%EB%82%98%EC%9A%B0-%ED%94%84%EB%A0%88%EC%89%AC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%98%AC%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%96%B4%EB%8D%9C%ED%8A%B8-%ED%94%BC%EC%89%AC-136kg/348/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #항산화',
+    'hash': ['항산화', '그레인프리'],
     'detail_explain': [
       '성견을 위한 맞춤 영양\r',
       'Grain Free(그레인프리)\r',
@@ -1563,7 +1563,7 @@ final petfood_list = [
         '/product/%EB%82%98%EC%9A%B0-%ED%94%84%EB%A0%88%EC%89%AC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%98%AC%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%96%B4%EB%8D%9C%ED%8A%B8-136kg/349/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #항산화',
+    'hash': ['항산화', '그레인프리'],
     'detail_explain': [
       '성견을 위한 맞춤 영양\r',
       'Grain Free(그레인프리)\r',
@@ -1633,7 +1633,7 @@ final petfood_list = [
         '/product/%EB%82%98%EC%9A%B0-%ED%94%84%EB%A0%88%EC%89%AC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%96%B4%EB%8D%9C%ED%8A%B8-%ED%94%BC%EC%89%AC-136kg/350/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #부드러운알갱이',
+    'hash': ['그레인프리', '부드러운알갱이'],
     'detail_explain': [
       '잘 부서지는 클로버 모양의 키블\r',
       'Grain Free(그레인프리)\r',
@@ -1705,7 +1705,7 @@ final petfood_list = [
         '/product/%EB%82%98%EC%9A%B0-%ED%94%84%EB%A0%88%EC%89%AC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%8B%9C%EB%8B%88%EC%96%B4-136kg/351/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #그레인프리',
+    'hash': ['관절건강', '그레인프리'],
     'detail_explain': [
       '관절이 약한 노령견을 위한 초록입홍합\r',
       '잘 부서지는 클로버 모양의 키블\r',
@@ -1777,7 +1777,7 @@ final petfood_list = [
         '/product/%EB%82%98%EC%9A%B0-%ED%94%84%EB%A0%88%EC%89%AC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%EC%96%B4%EB%8D%9C%ED%8A%B8-136kg/352/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #유산균? ',
+    'hash': ['유산균?', '그레인프리'],
     'detail_explain': [
       '잘 부서지는 클로버 모양의 키블\r',
       'Grain Free(그레인프리)\r',
@@ -1845,7 +1845,7 @@ final petfood_list = [
         '/product/%EB%82%98%EC%9A%B0-%ED%94%84%EB%A0%88%EC%89%AC%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-%ED%8D%BC%ED%94%BC-136kg/353/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #유산균',
+    'hash': ['유산균', '그레인프리'],
     'detail_explain': [
       '성장기 강아지를 위한 영양 설계\r',
       'Grain Free (그레인프리)\r',
@@ -1888,7 +1888,7 @@ final petfood_list = [
         '/product/go-lid-%EC%98%A4%EB%A6%AC-%EB%A0%88%EC%8B%9C%ED%94%BC-136kg/354/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#LID사료 #저알레르기',
+    'hash': ['LID사료', '저알레르기'],
     'detail_explain': [
       '알레르기 예방을 위한 제한적 원료(LID)\r',
       '혈관 질환 예방과 피부 건강\r',
@@ -1931,7 +1931,7 @@ final petfood_list = [
         '/product/go-lid-%EC%B9%A0%EB%A9%B4%EC%A1%B0-%EB%A0%88%EC%8B%9C%ED%94%BC-136kg/355/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#LID사료 #저알레르기',
+    'hash': ['LID사료', '저알레르기'],
     'detail_explain': [
       '타임즈가 선정한 육류 칠면조\r',
       '알레르기 예방을 위한 제한적 원료(LID)\r',
@@ -1974,7 +1974,7 @@ final petfood_list = [
         '/product/go-lid-%EC%97%B0%EC%96%B4-%EB%A0%88%EC%8B%9C%ED%94%BC-136kg/356/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#LID사료 #저알레르기',
+    'hash': ['LID사료', '저알레르기'],
     'detail_explain': [
       '윤기 나는 피부를 위한 연어\r',
       '알레르기 예방을 위한 제한적 원료(LID)\r',
@@ -2017,7 +2017,7 @@ final petfood_list = [
         '/product/go-lid-%EC%97%B0%EC%96%B4-%EB%A0%88%EC%8B%9C%ED%94%BC-%EC%8A%A4%EB%AA%B0%EB%B8%8C%EB%A6%AC%EB%93%9C-136kg/357/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#LID사료 #저알레르기',
+    'hash': ['LID사료', '저알레르기'],
     'detail_explain': [
       '윤기 나는 피부를 위한 연어\r',
       '알레르기 예방을 위한 제한적 원료(LID)\r',
@@ -2072,7 +2072,7 @@ final petfood_list = [
         '/product/%EC%9B%8C%ED%94%84-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%93%9C-%EB%B2%A0%EB%8B%88%EC%8A%A8%EC%82%AC%EC%8A%B4%EA%B3%A0%EA%B8%B0-100g/129/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절 건강과 피부 건강을 동시에\r',
@@ -2115,7 +2115,7 @@ final petfood_list = [
         '/product/%EC%9B%8C%ED%94%84-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%93%9C-%EB%B9%84%ED%94%84%EC%86%8C%EA%B3%A0%EA%B8%B0-100g/130/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#그레인프리 #관절건강',
+    'hash': ['관절건강', '그레인프리'],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절건강과 피부건강을 동시에\r',
@@ -2158,7 +2158,7 @@ final petfood_list = [
         '/product/%EC%A7%80%EC%9C%84%ED%94%BD-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4-%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%94%84%EC%96%91%EA%B3%A0%EA%B8%B0-1kg/358/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기 #관절건강',
+    'hash': ['관절건강', '단일단백질', '저알레르기'],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -2201,7 +2201,7 @@ final petfood_list = [
         '/product/%EC%A7%80%EC%9C%84%ED%94%BD-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4-%EB%8B%AD%EA%B3%A0%EA%B8%B0-%EB%8F%85-1kg/359/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기 #관절건강',
+    'hash': ['관절건강', '단일단백질', '저알레르기'],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -2244,7 +2244,7 @@ final petfood_list = [
         '/product/%EC%A7%80%EC%9C%84%ED%94%BD-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4-%EC%96%91%EA%B3%A0%EA%B8%B0-%EB%8F%85-1kg/360/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기 #관절건강',
+    'hash': ['관절건강', '단일단백질', '저알레르기'],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -2287,7 +2287,7 @@ final petfood_list = [
         '/product/%EC%A7%80%EC%9C%84%ED%94%BD-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4-%EC%86%8C%EA%B3%A0%EA%B8%B0-%EB%8F%85-1kg/361/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기 #관절건강',
+    'hash': ['관절건강', '단일단백질', '저알레르기'],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -2330,7 +2330,7 @@ final petfood_list = [
         '/product/%EC%A7%80%EC%9C%84%ED%94%BD-%EC%97%90%EC%96%B4%EB%93%9C%EB%9D%BC%EC%9D%B4-%EC%82%AC%EC%8A%B4%EA%B3%A0%EA%B8%B0-%EB%8F%85-1kg/362/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기 #관절건강',
+    'hash': ['관절건강', '단일단백질', '저알레르기'],
     'detail_explain': [
       '영양소와 맛을 보존하는 에어드라이\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -2394,7 +2394,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-%EB%8F%85-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%B2%AD%EC%96%B4%EC%98%A4%EB%A0%8C%EC%A7%80-%EB%AF%B8%EB%8B%88-25kg/363/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '알레르기 예방과 피부에 좋은 청어\r',
       '높은 프로바이오틱스 함유량\r',
@@ -2459,7 +2459,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-%EB%8F%85-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%ED%8E%8C%ED%94%84%ED%82%A8-%EB%8B%AD%EA%B3%A0%EA%B8%B0%EC%84%9D%EB%A5%98-%EB%AF%B8%EB%8B%88-25kg/364/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '당뇨를 예방하는 단호박\r',
       '높은 프로바이오틱스 함유량\r',
@@ -2522,7 +2522,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-dog-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EB%A9%A7%EB%8F%BC%EC%A7%80%EC%82%AC%EA%B3%BC-25kg/377/category/269/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기',
+    'hash': ['단일단백질', '저알레르기'],
     'detail_explain': [
       '알레르기 예방을 위한 단일 단백질\r',
       '높은 프로바이오틱스 함유량\r',
@@ -2586,7 +2586,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-%EB%8F%85-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%ED%8E%8C%ED%94%84%ED%82%A8-%EB%8C%80%EA%B5%AC%EC%98%A4%EB%A0%8C%EC%A7%80-%EB%AF%B8%EB%8B%88-25kg/365/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#단일단백질 #저알레르기',
+    'hash': ['단일단백질', '저알레르기'],
     'detail_explain': [
       '알레르기 예방과 피부에 좋은 대구\r',
       '높은 프로바이오틱스 함유량\r',
@@ -2651,7 +2651,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-%EB%8F%85-%EB%A1%9C%EC%9A%B0%EA%B7%B8%EB%A0%88%EC%9D%B8-%EB%8B%AD%EA%B3%A0%EA%B8%B0%EC%84%9D%EB%A5%98-%EB%AF%B8%EB%8B%88-25kg/366/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '혈당조절과 심장에 좋은 원시 곡물\r',
       '높은 프로바이오틱스 함유량\r',
@@ -2708,7 +2708,7 @@ final petfood_list = [
         '/product/%EB%94%94%EB%B0%94%ED%81%AC-%EC%84%BC%EC%8A%A4-%ED%84%B0%ED%82%A4-%EC%95%A4-%EC%82%B4%EB%AA%AC-%ED%8D%BC%ED%94%BC-2kg/202/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #면역력향상',
+    'hash': ['관절건강', '면역력향상'],
     'detail_explain': [
       '관절 건강 케어 (조인트 프로텍터)\r',
       '면역력 향상과 피부 건강\r',
@@ -2767,7 +2767,7 @@ final petfood_list = [
         '/product/%EB%94%94%EB%B0%94%ED%81%AC-%EC%84%BC%EC%8A%A4-%EC%82%B4%EB%AA%AC-%EC%96%B4%EB%8D%9C%ED%8A%B8-2kg/203/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #면역력향상',
+    'hash': ['관절건강', '면역력향상'],
     'detail_explain': [
       '관절 건강 케어 (조인트 프로텍터)\r',
       '면역력 향상과 피부 건강\r',
@@ -2825,7 +2825,7 @@ final petfood_list = [
         '/product/%EB%94%94%EB%B0%94%ED%81%AC-%EC%84%BC%EC%8A%A4-%EB%8D%95-%EC%95%A4-%ED%84%B0%ED%82%A4-%EC%8B%9C%EB%8B%88%EC%96%B4-2kg/204/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #면역력향상',
+    'hash': ['관절건강', '면역력향상'],
     'detail_explain': [
       '관절 건강 케어 (조인트 프로텍터)\r',
       '면역력 향상과 피부 건강\r',
@@ -2886,7 +2886,7 @@ final petfood_list = [
         '/product/%EB%A7%A5%EC%95%84%EB%8B%B4%EC%8A%A4-%EB%B0%A9%EB%AA%A9%EC%B9%98%ED%82%A8-%EC%8B%9C%EB%8B%88%EC%96%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8-2kg/206/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#다이어트사료 #오븐베이크 ',
+    'hash': ['오븐베이크', '다이어트사료'],
     'detail_explain': [
       '바삭한 식감의 오븐베이크 공법\r',
       '관절 건강을 생각한 다이어트 사료\r',
@@ -2946,7 +2946,7 @@ final petfood_list = [
         '/product/%EB%A7%A5%EC%95%84%EB%8B%B4%EC%8A%A4-%EB%B0%A9%EB%AA%A9%EC%B9%98%ED%82%A8-%EC%86%8C%ED%98%95%EA%B2%AC%EC%9A%A9-2kg/207/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #자유방목닭',
+    'hash': ['관절건강', '자유방목닭'],
     'detail_explain': [
       '바삭한 식감의 오븐베이크 공법\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -3006,7 +3006,7 @@ final petfood_list = [
         '/product/%EB%A7%A5%EC%95%84%EB%8B%B4%EC%8A%A4-%EB%B0%A9%EB%AA%A9%EC%B9%98%ED%82%A8-%EC%A4%91%ED%98%95%EA%B2%AC%EC%9A%A9-2kg/208/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #자유방목닭',
+    'hash': ['관절건강', '자유방목닭'],
     'detail_explain': [
       '바삭한 식감의 오븐베이크 공법\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -3068,7 +3068,7 @@ final petfood_list = [
         '/product/%EB%A7%A5%EC%95%84%EB%8B%B4%EC%8A%A4-%EB%B0%A9%EB%AA%A9%EC%B9%98%ED%82%A8%EC%97%B0%EC%96%B4-%EC%86%8C%ED%98%95%EA%B2%AC%EC%9A%A9-2kg/209/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '#관절건강 #오븐베이크',
+    'hash': ['관절건강', '오븐베이크'],
     'detail_explain': [
       '바삭한 식감의 오븐베이크 공법\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -3130,7 +3130,7 @@ final petfood_list = [
         '/product/%EB%A7%A5%EC%95%84%EB%8B%B4%EC%8A%A4-%EB%B0%A9%EB%AA%A9%EC%B9%98%ED%82%A8%EC%97%B0%EC%96%B4-%EC%A4%91%ED%98%95%EA%B2%AC%EC%9A%A9-2kg/210/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '바삭한 식감의 오븐베이크 공법\r',
       '관절 건강을 위한 초록입홍합\r',
@@ -3173,7 +3173,7 @@ final petfood_list = [
         '/product/%ED%93%A8%EB%A6%AC%EB%82%98-%ED%94%84%EB%A1%9C%ED%94%8C%EB%9E%9C-%EC%8A%88%EB%A0%88%EB%93%9C-%EA%B0%95%EC%95%84%EC%A7%80-272kg/212/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['쫄깃한 식감의 슈레드 키블\r', '편안한 소화를 위한 쌀\r', '필수 아미노산이 풍부한 닭고기']
   },
   {
@@ -3212,7 +3212,7 @@ final petfood_list = [
         '/product/%ED%93%A8%EB%A6%AC%EB%82%98-%ED%94%84%EB%A1%9C%ED%94%8C%EB%9E%9C-%EC%8A%88%EB%A0%88%EB%93%9C-%EA%B9%8C%EB%8B%A4%EB%A1%9C%EC%9A%B4-%EC%9E%85%EB%A7%9B-%EC%86%8C%ED%98%95%EA%B2%AC-272kg/213/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['쫄깃한 식감의 슈레드 키블\r', '편안한 소화를 위한 쌀\r', '필수 아미노산이 풍부한 닭고기']
   },
   {
@@ -3251,7 +3251,7 @@ final petfood_list = [
         '/product/%ED%93%A8%EB%A6%AC%EB%82%98-%ED%94%84%EB%A1%9C%ED%94%8C%EB%9E%9C-%EC%8A%88%EB%A0%88%EB%93%9C-%EB%85%B8%EB%A0%B9%EA%B2%AC-272kg/214/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['쫄깃한 식감의 슈레드 키블\r', '편안한 소화를 위한 쌀\r', '필수 아미노산이 풍부한 닭고기']
   },
   {
@@ -3290,7 +3290,7 @@ final petfood_list = [
         '/product/%ED%93%A8%EB%A6%AC%EB%82%98-%ED%94%84%EB%A1%9C%ED%94%8C%EB%9E%9C-%ED%86%A0%EC%9D%B4-%ED%8D%BC%ED%94%BC-272kg/215/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '성장하는 강아지의 소화기 건강\r',
       '치석 제거를 돕는 사료 알갱이\r',
@@ -3333,7 +3333,7 @@ final petfood_list = [
         '/product/%ED%97%88%EC%A6%88-%EB%8F%85-%EB%AF%B8%EA%B5%AD%EC%82%B0-%EC%B9%A0%EB%A9%B4%EC%A1%B0%EA%B0%80%EC%8A%B4%EC%82%B4-%EB%A0%88%EC%8B%9C%ED%94%BC-908g/273/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '식이 알레르기 최소화와 눈물 개선\r',
       '타임즈가 선정한 육류 칠면조\r',
@@ -3376,7 +3376,7 @@ final petfood_list = [
         '/product/%ED%97%88%EC%A6%88-%EB%8F%85-%EB%AF%B8%EA%B5%AD%EC%82%B0-%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4-%EB%A0%88%EC%8B%9C%ED%94%BC-908g/274/category/57/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '식이 알레르기 최소화와 눈물 개선\r',
       '필수 아미노산이 풍부한 닭고기\r',
@@ -3430,7 +3430,7 @@ final petfood_list = [
         '/product/%EC%B9%B4%EC%9D%BC%EB%A6%AC-%EC%86%8C%ED%94%84%ED%8A%B8%ED%94%84%EB%A0%88%EC%89%AC-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%ED%84%B0%ED%82%A4-%EB%AF%B8%EB%8B%88-15kg/277/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '관절 건강과 피부 건강을 위한 사료\r',
       '면역력을 높여주는 스위스 야생 허브\r',
@@ -3473,7 +3473,7 @@ final petfood_list = [
         '/product/%EC%B9%B4%EC%9D%BC%EB%A6%AC-%EC%86%8C%ED%94%84%ED%8A%B8%ED%94%84%EB%A0%88%EC%89%AC-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%B9%98%ED%82%A8-%EB%AF%B8%EB%8B%88-15kg/278/category/54/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '관절 건강과 피부 건강을 위한 사료\r',
       '면역력을 높여주는 스위스 야생 허브\r',
@@ -3541,7 +3541,7 @@ final petfood_list = [
         '/product/%EC%95%84%EC%B9%B4%EB%82%98-%EC%99%80%EC%9D%BC%EB%93%9C-%ED%94%84%EB%A0%88%EC%9D%B4%EB%A6%AC-%EC%BA%A3-18kg/250/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['풍부한 육류 함량\r', '건강한 심장과 눈 건강\r', '기호성을 높이는 동결건조']
   },
   {
@@ -3608,7 +3608,7 @@ final petfood_list = [
         '/product/%EC%95%84%EC%B9%B4%EB%82%98-%EA%B7%B8%EB%9E%98%EC%8A%A4%EB%9E%9C%EB%93%9C-%EC%BA%A3-18kg/251/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['풍부한 육류 함량\r', '소화에 좋은 유산균 함유\r', '기호성을 높이는 동결건조']
   },
   {
@@ -3676,7 +3676,7 @@ final petfood_list = [
         '/product/%EC%95%84%EC%B9%B4%EB%82%98-%ED%8C%A8%EC%8B%9C%ED%94%BC%EC%B9%B4-%EC%BA%A3-18kg/252/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['풍부한 어류 함량\r', '피부/피모 건강 증진\r', '소화에 좋은 유산균 함유']
   },
   {
@@ -3746,7 +3746,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%EC%BA%A3%ED%82%A4%ED%8A%BC-18kg/253/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '성장하는 고양이를 위한 영양 설계\r',
       '기호성을 높이는 동결건조\r',
@@ -3819,7 +3819,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%EC%8B%9D%EC%8A%A4%ED%94%BC%EC%89%AC-%EC%BA%A3-18kg/254/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['풍부한 어류 함량\r', '피부/피모 건강 증진\r', '소화에 좋은 유산균 함유']
   },
   {
@@ -3858,7 +3858,7 @@ final petfood_list = [
         '/product/%EC%98%A4%EB%A6%AC%EC%A0%A0-%ED%94%BC%ED%8A%B8%ED%8A%B8%EB%A6%BC-%EC%BA%A3-18kg/255/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': ['다이어트 사료\r', '소화에 좋은 유산균 함유\r', '맛을 더하는 동결건조']
   },
   {
@@ -3918,7 +3918,7 @@ final petfood_list = [
     'link': '/product/파미나-nd-cat-로우그레인귀리-닭고기석류-15kg/441/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '혈당조절과 심장에 좋은 원시 곡물\r',
       '높은 프로바이오틱스 함유량\r',
@@ -3984,7 +3984,7 @@ final petfood_list = [
         '/product/파미나-nd-cat-오션-로우-엔세스트럴-그레인대구오렌지-15kg/442/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '혈당조절과 심장에 좋은 원시 곡물과 대구\r',
       '높은 프로바이오틱스 함유량\r',
@@ -4045,7 +4045,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-cat-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EB%8B%AD%EA%B3%A0%EA%B8%B0%EC%84%9D%EB%A5%98-15kg/443/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       'Grain Free (그레인프리)\r',
       '높은 프로바이오틱스 함유량\r',
@@ -4110,7 +4110,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-cat-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EB%A9%A7%EB%8F%BC%EC%A7%80%EC%82%AC%EA%B3%BC-15kg/444/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       'Grain Free (그레인프리)\r',
       '높은 프로바이오틱스 함유량\r',
@@ -4176,7 +4176,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-cat-%EC%98%A4%EC%85%98-%EA%B7%B8%EB%A0%88%EC%9D%B8%ED%94%84%EB%A6%AC-%EC%B2%AD%EC%96%B4%EC%98%A4%EB%A0%8C%EC%A7%80-15kg/445/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '피부/피모 건강 증진\r',
       'Grain Free (그레인프리)\r',
@@ -4233,7 +4233,7 @@ final petfood_list = [
         '/product/%ED%8C%8C%EB%AF%B8%EB%82%98-nd-cat-%ED%80%B4%EB%85%B8%EC%95%84-%EC%9C%A0%EB%A6%AC%EB%84%88%EB%A6%AC-%EC%98%A4%EB%A6%AC-15kg/446/category/91/display/1/',
     'sales_count': 0,
     'show_product': 'O',
-    'hash': '',
+    'hash': [''],
     'detail_explain': [
       '결석과 비뇨기에 좋은 퀴노아\r',
       '높은 프로바이오틱스 함유량\r',

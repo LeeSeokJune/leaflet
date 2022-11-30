@@ -50,7 +50,8 @@ class SamplePetfoodTestForm extends StatelessWidget {
               borderRadius: BorderRadius.circular(basic_radius),
               color: background_blue,
             ),
-            child: Image.asset('assets/images/6fish.png'),
+            child: Image.asset(
+                'assets/images/${petfood_list[petfoodController.petfood_index_list[index]]["product_code"]}.png'),
           ),
           onTap: () {
             Get.dialog(SelectPetfoodDialog(order_index: index));

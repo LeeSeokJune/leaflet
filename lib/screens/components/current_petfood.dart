@@ -75,31 +75,36 @@ class CurrentPetfood extends StatelessWidget {
       children: [
         InkWell(
           child: Container(
-              width: 34 * magnification,
-              height: 34 * magnification,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(basic_radius),
-                color: background_blue,
-              ),
-              child: Image.asset(
-                'images/6fish.png',
-              )
-              // 'assets/images/${petfoodController.petfood.value.brand}/${petfoodController.petfood.value.name}.png'),
-              ),
+            width: 34 * magnification,
+            height: 34 * magnification,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(basic_radius),
+              color: background_blue,
+            ),
+            child: Image.asset(
+                'assets/images/${petfood_list[petfoodController.petfood_index_list[0]]["product_code"]}.png'),
+          ),
           onTap: () {
             Get.dialog(SelectPetfoodDialog(order_index: 0));
           },
         ),
         SizedBox(height: 4 * magnification),
         Container(
-          decoration: test_line,
-          width: 28 * magnification,
+          width: 30 * magnification,
           height: 15 * magnification,
-          child: Center(
-            child: Text(
-              '${petfood_list[petfoodController.petfood_index_list[0]]["hash"]}',
-              style: grey_small_style,
-            ),
+          child: Column(
+            children: [
+              for (var index = 0;
+                  index <
+                      (petfood_list[petfoodController.petfood_index_list[0]]
+                              ["hash"] as List)
+                          .length;
+                  index++)
+                Text(
+                  '#${(petfood_list[petfoodController.petfood_index_list[0]]["hash"] as List)[index]}',
+                  style: grey_small_style,
+                ),
+            ],
           ),
         ),
       ],

@@ -56,7 +56,7 @@ class SubscriptionPetfoodForm extends StatelessWidget {
                   _petfood_change_form(index: index)
               ],
             ),
-            SizedBox(height: 2 * magnification),
+            SizedBox(height: 3 * magnification),
             Text(
               '사료 교체 시 약 7-10일 정도 혼합 급여 기간이 필요합니다.',
               style: TextStyle(fontWeight: FontWeight.w600),

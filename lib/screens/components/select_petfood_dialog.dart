@@ -26,6 +26,8 @@ class SelectPetfoodDialog extends StatelessWidget {
                     borderRadius: BorderRadius.circular(basic_radius),
                     color: background_blue,
                   ),
+                  child: Image.asset(
+                      'assets/images/${petfood_list[i]["product_code"]}.png'),
                 ),
                 Text("${petfood_list[i]['name']}"),
               ],
