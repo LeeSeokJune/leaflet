@@ -61,7 +61,7 @@ class SamplePetfoodTestForm extends StatelessWidget {
         Container(
           alignment: Alignment.topCenter,
           width: 32 * magnification,
-          height: 10 * magnification,
+          height: 8 * magnification,
           child: Text(
             textAlign: TextAlign.center,
             '${petfood_list[petfoodController.petfood_index_list[index]]['name']}',
@@ -71,10 +71,20 @@ class SamplePetfoodTestForm extends StatelessWidget {
         Container(
           alignment: Alignment.topCenter,
           width: 32 * magnification,
-          height: 10 * magnification,
-          child: Text(
-            '해시태그',
-            style: grey_regular_style,
+          height: 12 * magnification,
+          child: Column(
+            children: [
+              for (var index = 0;
+                  index <
+                      (petfood_list[petfoodController.petfood_index_list[0]]
+                              ["hash"] as List)
+                          .length;
+                  index++)
+                Text(
+                  '#${(petfood_list[petfoodController.petfood_index_list[0]]["hash"] as List)[index]}',
+                  style: grey_small_style,
+                ),
+            ],
           ),
         ),
       ],
