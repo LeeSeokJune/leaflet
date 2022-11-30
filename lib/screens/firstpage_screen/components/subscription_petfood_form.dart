@@ -22,7 +22,7 @@ class SubscriptionPetfoodForm extends StatelessWidget {
                     index: 1,
                     main_txt: '샘플 사료 테스트',
                     explain:
-                        '권장 교체 시기(4-6개월차) 부터는 루이스홈이 ${petController.pet.value.name}가 먹을 수 있는 샘플 사료를 보내드립니다. 새픔 사료 급여 후 교체 여부를 결정합니다.'),
+                        '권장 교체 시기(4-6개월차) 부터는 루이스홈이 ${petController.pet.value.name}가 먹을 수 있는 샘플 사료를 보내드립니다. 샘플 사료 급여 후 교체 여부를 결정합니다.'),
               ),
               _explain_subscription(
                   index: 2,
@@ -59,6 +59,7 @@ class SubscriptionPetfoodForm extends StatelessWidget {
             SizedBox(height: 2 * magnification),
             Text(
               '사료 교체 시 약 7-10일 정도 혼합 급여 기간이 필요합니다.',
+              style: TextStyle(fontWeight: FontWeight.w600),
             ),
           ],
         ),
@@ -87,7 +88,10 @@ class SubscriptionPetfoodForm extends StatelessWidget {
               width: 13 * magnification,
             ),
             SizedBox(height: 2 * magnification),
-            Text(change_days[index]),
+            Text(
+              change_days[index],
+              style: TextStyle(fontWeight: FontWeight.w600),
+            ),
           ],
         ),
       ],
@@ -112,7 +116,9 @@ class SubscriptionPetfoodForm extends StatelessWidget {
                   width: 100 * magnification,
                   child: Text(
                     '${explain}',
-                    style: TextStyle(fontSize: 8 + magnification),
+                    style: TextStyle(
+                        fontSize: 9 + magnification,
+                        fontWeight: FontWeight.w600),
                     maxLines: 2,
                   ),
                 ),

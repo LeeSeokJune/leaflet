@@ -52,14 +52,14 @@ class CurrentPetfood extends StatelessWidget {
                 text: '권장 사료 교체 주기',
                 style: TextStyle(
                     fontSize: 9 + magnification,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.w700,
                     color: point_yellow),
                 children: [
                   TextSpan(
                     text: '  (개월)',
                     style: TextStyle(
                         fontSize: 7 + magnification,
-                        fontWeight: FontWeight.w600),
+                        fontWeight: FontWeight.w700),
                   ),
                 ],
               ),
@@ -95,7 +95,12 @@ class CurrentPetfood extends StatelessWidget {
           decoration: test_line,
           width: 28 * magnification,
           height: 15 * magnification,
-          child: Center(child: Text('해시태그')),
+          child: Center(
+            child: Text(
+              '${petfood_list[petfoodController.petfood_index_list[0]]["hash"]}',
+              style: grey_small_style,
+            ),
+          ),
         ),
       ],
     );
@@ -124,9 +129,10 @@ class CurrentPetfood extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _second_feature(
-                  main_txt: '권장 연령',
-                  sub_txt:
-                      '${petfood_list[petfoodController.petfood_index_list[0]]["life_stage"]}'),
+                main_txt: '권장 연령',
+                sub_txt:
+                    '${petfood_list[petfoodController.petfood_index_list[0]]["life_stage"]}',
+              ),
               SizedBox(height: 2 * magnification),
               _second_feature(
                   main_txt: '주 단백질',
@@ -150,7 +156,7 @@ class CurrentPetfood extends StatelessWidget {
                 SizedBox(width: 4 * magnification),
                 Text(
                   list_to_str(
-                      '${petfood_list[petfoodController.petfood_index_list[0]]["feature"]}'),
+                      '${(petfood_list[petfoodController.petfood_index_list[0]]["detail_explain"] as List)[index]}'),
                   style: black_basic_style,
                 ),
               ],
@@ -172,15 +178,12 @@ class CurrentPetfood extends StatelessWidget {
             style: TextStyle(
                 fontSize: 10 + magnification,
                 color: grey,
-                fontWeight: FontWeight.w600),
+                fontWeight: FontWeight.w700),
           )),
         ),
         Text(
           list_to_str(sub_txt),
-          style: TextStyle(
-            fontSize: 10 + magnification,
-            color: grey,
-          ),
+          style: grey_small_style,
         ),
       ],
     );

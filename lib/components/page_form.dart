@@ -10,7 +10,6 @@ class PageForm extends StatelessWidget {
       margin: EdgeInsets.all(9 * magnification),
       width: (main_width - 9 * magnification) * magnification / 2 - 2,
       height: main_height * magnification,
-      decoration: test_line,
       child: child,
     );
   }

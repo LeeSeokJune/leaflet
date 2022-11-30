@@ -52,9 +52,9 @@ class RotationFeeding extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('+ 기호성'),
-                        Text('+ 다양한 영양소'),
-                        Text('+ 소화 기능 강화'),
+                        Text('+ 기호성', style: grey_small_style),
+                        Text('+ 다양한 영양소', style: grey_small_style),
+                        Text('+ 소화 기능 강화', style: grey_small_style),
                       ],
                     )),
               ],

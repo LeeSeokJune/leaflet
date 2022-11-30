@@ -17,30 +17,45 @@ final border_color = Color.fromRGBO(183, 201, 232, 1);
 final title_style = TextStyle(
     fontSize: 19 + magnification,
     color: main_color,
-    fontWeight: FontWeight.w600);
+    fontWeight: FontWeight.w700);
 final blue_small_style = TextStyle(
     fontSize: 10 + magnification,
     color: main_color,
-    fontWeight: FontWeight.bold);
+    fontWeight: FontWeight.w800);
 final blue_medium_style = TextStyle(
   fontSize: 12 + magnification,
-  fontWeight: FontWeight.w500,
+  fontWeight: FontWeight.w600,
   color: main_color,
 );
 final black_bold_style = TextStyle(
     fontSize: 10 + magnification,
     color: Colors.black,
-    fontWeight: FontWeight.bold);
+    fontWeight: FontWeight.w700);
 final black_bold_basic_style =
-    TextStyle(color: Colors.black, fontWeight: FontWeight.bold);
+    TextStyle(color: Colors.black, fontWeight: FontWeight.w700);
 final black_basic_style = TextStyle(
     color: Colors.black,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
     fontSize: 10 + magnification);
 final number_bold_medium = TextStyle(
-    fontSize: 10 + magnification, fontFamily: 'Jalnan', color: main_color);
+    fontSize: 10 + magnification,
+    fontFamily: 'Jalnan',
+    color: main_color,
+    fontWeight: FontWeight.w500);
 final number_bold_medium_yellow = TextStyle(
-    fontSize: 10 + magnification, fontFamily: 'Jalnan', color: point_yellow);
+    fontSize: 10 + magnification,
+    fontFamily: 'Jalnan',
+    color: point_yellow,
+    fontWeight: FontWeight.w500);
 final number_bold_large_style = TextStyle(
-    fontSize: 17 + magnification, fontFamily: 'Jalnan', color: main_color);
-final grey_regular_style = TextStyle(fontSize: 11 + magnification, color: grey);
+    fontSize: 17 + magnification,
+    fontFamily: 'Jalnan',
+    color: main_color,
+    fontWeight: FontWeight.w500);
+final grey_regular_style = TextStyle(
+    fontSize: 11 + magnification, color: grey, fontWeight: FontWeight.w500);
+final grey_small_style = TextStyle(
+  fontSize: 10 + magnification,
+  color: grey,
+  fontWeight: FontWeight.w600,
+);

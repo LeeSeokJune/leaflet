@@ -30,7 +30,7 @@ class CustomContainerForm extends StatelessWidget {
               style: blue_medium_style,
             )),
           ),
-          onTap: () {
+          onTap: () async {
             if (txt == '샘플 사료 테스트' || txt == '순환 급여') {
               containerController.set_container_index();
             }
